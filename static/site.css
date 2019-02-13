@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond|Montserrat');
+
+body {
+    background-color: #F8FFF7;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    margin: 1em 0;
+    text-align: center;
+}
+
+.header__intro {
+    width: 30em;
+    margin: 0 auto;
+}
+
+.header {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header__image {
+    text-align: center;
+}
+
+.entries__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.entries__list__item {
+    margin: 0;
+    padding: 1em;
+}
+
+.quote__container {
+    margin: 3rem auto 3em;
+    width: 30em;
+    border-bottom: 2px dotted #C6D1BF;
+    padding-bottom: .5rem;
+}
+
+.quote {
+    font-family: 'EB Garamond', serif;
+    font-size: 32px;
+    line-height: 2rem;
+    height: 100%;
+    padding: .5rem;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: auto;
+    -webkit-font-smoothing: antialiased;
+    font-kerning: normal;
+    color: #1A222F;
+    position: relative;
+    letter-spacing: .03em;
+    margin-bottom: .5rem;
+}
+
+.quote:before {
+    content: "“";
+    position: absolute;
+    left: -.7em;
+}
+
+.quote:after {
+    content: "”";
+    margin-right: -1rem;
+}
+
+.footer {
+    margin-bottom: 1em;
+}
+
+.message__input {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 1em;
+    width: 100%;
+    border: none;
+    background-color: #FFFFFC;
+    box-shadow: 5px 5px 30px 0px rgba(198,209,191,0.75);
+}
+
+.message__input:focus {
+    outline: none;
+}
+
+.message__form {
+    margin-top: 4rem;
+}
