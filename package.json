@@ -4,9 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "netlify-lambda build src/functions",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "netlify-lambda": "^1.4.2"
+  },
+  "dependencies": {
+    "node-fetch": "^2.3.0"
+  }
 }
